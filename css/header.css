@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto ', sans-serif;
+}
+
+.hero {
+    background: url(/images/assets/new-assets-images/hero.jpg) no-repeat scroll center center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .headshot {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+   
+   
+}
+
+ul li {
+    list-style: none;
+}
+
+.headshot h1{
+    font-weight: 500;
+    font-size: 30px;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.topicon{
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+   
+}
+
+.hero .container {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 32px;
+    justify-content: space-between;
+    z-index: 2;
+   
+}
+
+nav{
+    display: none;
+}
+
+.headshot a {
+    color: black;
+    font-family: "poppins";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.mainmenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.mainmenu a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins';
+}
+
+.mainmenu li{
+    margin-right: 20px;
+}
+
+@media (min-width:900px) {
+    nav{
+        display: block;
+    }
+}
