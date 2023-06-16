@@ -133,7 +133,6 @@ body {
 
 } 
 
-
 /* OVERLAY PRODUCTS */
 
 .overlay-p {
@@ -209,59 +208,95 @@ body {
 }
 
 .news-txt p {
-    font-size: 14px;
-    padding-top: 200px;
-    line-height: 1.2;
+    font-size: 18px;
+    padding-top: 100px;
+    line-height: 1.6;
+    font-weight: 500;
 }
+
+.news-txt  a {
+    color: black;
+    
+}
+
+.news-pics  .news-date {
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    width: 62px;
+    height: 62px;
+    margin: 10px 20px;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: #F5F5F5;
+}
+
+
+
 
 /* FOOOTER SECTION STYLING */
 
- footer .foo-address {
-    padding: 20px;
-   display: flex;
-   flex-direction: column;
-   background: #EFEFEF;
-   margin-left: 40px;
- }
-.email-address,
-.location-address,
-.phone-address{
+.footer {
+    background-color: #efefef;
+    padding: 40px 20px 30px;
+}
+
+.footer .location, 
+.footer .email, 
+.footer .phone {
     display: flex;
-    font-weight: 400;
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: 'Poppins';
-    line-height: 24px;
-    font-style: normal;
-   
+    margin: 10px 0;
+    align-items: center;
 }
 
-.contact {
-    margin-top: 30px;
+.footer .text-address {
+    font-size: 20px;
 }
 
-.r-only {
-    display: none;
+.footer .icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+ 
+.footer .Subscription {
+    margin: 60px 0 30px;
 }
 
-.email {
+.footer input[type="text"] {
+    width: 270px;
+    border: 2px solid #b9b9b9;
+    font-size: 16px;
     padding: 10px 20px;
 }
 
-.text-address {
-    margin-top: 30px;
+.footer button {
+    background-color: #f0f0f0;
+    border: 2px solid #b9b9b9;
+    border-radius: 1px;
+    padding: 10px 15px 8px;
 }
 
-.contact p {
-    font-family: "roboto";
-    font-size: 25px;
-    line-height: 20px;
-    margin-bottom: 30px;
+.sub-form {
+    display: flex;
+    margin-top: 20px;
 }
 
-.foo-address img {
-    width: 100px;
-    height: 24px;
+.hr_line{
+    margin-bottom: 25px;
+}
+
+.copyright {
+    font-size: 22px;
+}
+
+.address-subscrib{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Subscription h3{
+    font-size: 20px;
+    color: #333;
 }
 
 /* TABLET STYLING */
@@ -270,7 +305,7 @@ body {
     .mainheadline {
         flex-direction: row;
         
-        
+
     }
 
     .news-pics{
@@ -301,6 +336,16 @@ body {
         
     }
 
+    .address-subscrib{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Subscription{
+        margin: 0 0 30px;
+    }
+    
     .goods{
         width:280px;
         /* margin-left: 20px; */
@@ -333,6 +378,9 @@ body {
         width: 380px;
         height: 330px;
     }
+
+    
+
         
 }
 
